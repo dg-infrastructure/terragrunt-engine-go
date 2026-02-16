@@ -3,11 +3,11 @@ module github.com/gruntwork-io/terragrunt-engine-go/examples/client-server
 go 1.26
 
 require (
-	github.com/gruntwork-io/terragrunt-engine-go v0.0.15
-	github.com/hashicorp/go-plugin v1.6.3
-	github.com/sirupsen/logrus v1.9.3
-	google.golang.org/grpc v1.74.2
-	google.golang.org/protobuf v1.36.7
+	github.com/gruntwork-io/terragrunt-engine-go v0.1.0
+	github.com/hashicorp/go-plugin v1.7.0
+	github.com/sirupsen/logrus v1.9.4
+	google.golang.org/grpc v1.79.1
+	google.golang.org/protobuf v1.36.11
 )
 
 require (
@@ -17,11 +17,11 @@ require (
 	github.com/hashicorp/yamux v0.1.2 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/oklog/run v1.1.0 // indirect
-	golang.org/x/net v0.41.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 // indirect
+	github.com/oklog/run v1.2.0 // indirect
+	golang.org/x/net v0.50.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/text v0.34.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260209200024-4cfbd4190f57 // indirect
 )
 
 replace github.com/gruntwork-io/terragrunt-engine-go => ../..
