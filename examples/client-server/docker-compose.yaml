@@ -1,8 +1,8 @@
 services:
   terragrunt-engine-server:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ../..
+      dockerfile: examples/client-server/Dockerfile
     environment:
       TOKEN: secret-token
       LOG_LEVEL: debug
